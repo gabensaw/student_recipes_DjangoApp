@@ -1,0 +1,9 @@
+{% extends "recipes/base.html" %}
+{% block content %}
+    <div class="logout">
+    <h2><br>You have been logged out<br></h2>
+    <div class="border-top pt-3">
+        <button class="login" type="button" onClick="location.href='{% url 'login' %}';">Log In Again</button>
+    </div>
+    </div>
+{% endblock content %}

@@ -1,0 +1,22 @@
+{% extends "recipes/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="content-section">
+    <div class="media">
+        <div class="media-body">
+            <h2 class="account-heading">Delete Account</h2>
+            <p class="warning">Are you sure you wish to delete your account? This process cannot be undone.<br>Your recipes will be displayed on the website at all times. If you want to delete them, you have to do it manually on the My Recipes page. </p>
+        </div>
+    </div>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div>
+             <button class="login" type="submit">YES</button>
+        </div>
+            </form>
+         <div>
+             <button class="login" onClick="location.href='{% url 'profile' %}'">NO</button>
+        </div>
+
+</div>
+{% endblock %}

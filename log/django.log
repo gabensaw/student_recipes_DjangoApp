@@ -1,0 +1,678 @@
+INFO 2022-03-24 12:42:36,729 autoreload 19476 18752 Watching for file changes with StatReloader
+INFO 2022-03-24 12:42:37,367 basehttp 19476 13268 "GET / HTTP/1.1" 200 26402
+INFO 2022-03-24 12:42:37,549 basehttp 19476 13268 "GET /mediafiles/recipes_pics/saag_paneer_pilau_79132_16x9.jpg HTTP/1.1" 200 71397
+INFO 2022-03-24 12:42:37,564 basehttp 19476 14176 "GET /mediafiles/recipes_pics/tarte-flambee-g3d9d2d8f8_1920_sXPdDR7.jpg HTTP/1.1" 200 18480
+INFO 2022-03-24 12:42:37,579 basehttp 19476 9972 "GET /mediafiles/recipes_pics/mexican-mix-g8b95c0e61_1920_qTVfvlK.jpg HTTP/1.1" 200 9582
+INFO 2022-03-24 12:42:50,229 basehttp 19476 9972 "GET /?c=Party HTTP/1.1" 200 7848
+INFO 2022-03-24 12:42:55,216 basehttp 19476 9972 "GET /?c=Party HTTP/1.1" 200 7848
+INFO 2022-03-24 12:42:58,165 basehttp 19476 9972 "GET /?c=Party HTTP/1.1" 200 7848
+INFO 2022-03-24 12:43:11,230 basehttp 19476 9972 "GET /?c=Party HTTP/1.1" 200 7848
+INFO 2022-03-24 12:44:15,424 basehttp 19476 9972 "GET / HTTP/1.1" 200 26402
+INFO 2022-03-24 12:44:15,463 basehttp 19476 9972 "GET /mediafiles/recipes_pics/saag_paneer_pilau_79132_16x9.jpg HTTP/1.1" 304 0
+INFO 2022-03-24 12:45:12,945 basehttp 19476 9972 "GET /?c=Party HTTP/1.1" 200 7848
+INFO 2022-03-24 12:45:31,064 basehttp 19476 9972 "GET /?c=Dinner HTTP/1.1" 200 9754
+INFO 2022-03-24 12:45:31,140 basehttp 19476 9972 "GET /mediafiles/recipes_pics/saag_paneer_pilau_79132_16x9.jpg HTTP/1.1" 304 0
+INFO 2022-03-24 13:21:53,432 views 19476 1124 url:/profile/ method:GET 
+INFO 2022-03-24 13:21:53,456 basehttp 19476 1124 "GET /profile/ HTTP/1.1" 200 4065
+INFO 2022-03-24 13:21:58,042 views 19476 1124 url:/profile/ method:POST 
+INFO 2022-03-24 13:21:58,061 basehttp 19476 1124 "POST /profile/ HTTP/1.1" 200 4187
+INFO 2022-03-24 13:22:09,907 basehttp 19476 1124 "POST /profile/ HTTP/1.1" 302 0
+INFO 2022-03-24 13:22:09,967 views 19476 1124 url:/profile/ method:GET 
+INFO 2022-03-24 13:22:09,986 basehttp 19476 1124 "GET /profile/ HTTP/1.1" 200 4183
+INFO 2022-03-24 13:22:17,000 basehttp 19476 1124 "POST /profile/ HTTP/1.1" 302 0
+INFO 2022-03-24 13:22:17,065 views 19476 1124 url:/profile/ method:GET 
+INFO 2022-03-24 13:22:17,083 basehttp 19476 1124 "GET /profile/ HTTP/1.1" 200 4183
+INFO 2022-03-24 13:25:01,627 autoreload 14552 19820 Watching for file changes with StatReloader
+INFO 2022-03-24 13:25:02,393 basehttp 14552 3668 "GET / HTTP/1.1" 200 11515
+INFO 2022-03-24 13:25:02,490 basehttp 14552 3668 "GET /mediafiles/recipes_pics/saag_paneer_pilau_79132_16x9.jpg HTTP/1.1" 304 0
+INFO 2022-03-24 13:25:06,855 basehttp 14552 3668 "GET /?c=Party HTTP/1.1" 200 6992
+INFO 2022-03-24 13:25:14,533 basehttp 14552 3668 "GET /?c=Dinner HTTP/1.1" 200 8950
+INFO 2022-03-24 13:26:18,817 basehttp 14552 3668 "GET /?s=SELECT+*+FROM+auth_user%3B HTTP/1.1" 200 2503
+INFO 2022-03-24 13:26:54,255 basehttp 14552 3668 "GET /?s=SELECT+*+FROM+recipesApp%3B HTTP/1.1" 200 2503
+INFO 2022-03-24 13:26:57,340 basehttp 14552 3668 "GET / HTTP/1.1" 200 11515
+INFO 2022-03-24 13:27:55,761 basehttp 14552 3668 "GET /?c=Party HTTP/1.1" 200 6992
+INFO 2022-03-24 13:39:24,442 basehttp 14552 15732 "GET /recipe/new/ HTTP/1.1" 200 9052
+INFO 2022-03-24 13:39:42,512 basehttp 14552 15732 "POST /recipe/new/ HTTP/1.1" 200 9634
+INFO 2022-03-24 13:39:50,918 basehttp 14552 15732 "POST /recipe/new/ HTTP/1.1" 200 7664
+INFO 2022-03-24 13:39:54,984 views 14552 15732 url:/recipe/new/ method:POST 
+INFO 2022-03-24 13:39:54,992 basehttp 14552 15732 "POST /recipe/new/ HTTP/1.1" 302 0
+INFO 2022-03-24 13:39:55,065 basehttp 14552 15732 "GET /recipe/164/ HTTP/1.1" 200 5073
+INFO 2022-03-24 13:39:55,189 basehttp 14552 15732 "GET /mediafiles/recipes_pics/egg-fried-rice-70b2cce_i7QSfux.webp HTTP/1.1" 200 21168
+INFO 2022-03-24 13:39:58,538 basehttp 14552 15732 "GET /recipe/164/update/ HTTP/1.1" 200 9694
+INFO 2022-03-24 13:40:04,691 basehttp 14552 15732 "POST /recipe/164/update/ HTTP/1.1" 200 9768
+INFO 2022-03-24 13:40:09,731 basehttp 14552 15732 "POST /recipe/164/update/ HTTP/1.1" 200 9741
+INFO 2022-03-24 13:40:21,859 basehttp 14552 15732 "POST /recipe/164/update/ HTTP/1.1" 200 10825
+INFO 2022-03-24 13:40:23,102 basehttp 14552 15732 "POST /recipe/164/update/ HTTP/1.1" 200 10825
+INFO 2022-03-24 13:41:06,279 autoreload 10408 11252 Watching for file changes with StatReloader
+INFO 2022-03-24 13:41:06,774 basehttp 10408 6304 "GET / HTTP/1.1" 200 11468
+INFO 2022-03-24 13:41:06,896 basehttp 10408 6304 "GET /mediafiles/recipes_pics/egg-fried-rice-70b2cce_i7QSfux.webp HTTP/1.1" 304 0
+INFO 2022-03-24 13:42:50,490 basehttp 10408 6304 "GET / HTTP/1.1" 200 11468
+INFO 2022-03-24 13:42:50,527 basehttp 10408 6304 "GET /mediafiles/recipes_pics/egg-fried-rice-70b2cce_i7QSfux.webp HTTP/1.1" 304 0
+INFO 2022-03-24 13:42:52,547 basehttp 10408 6304 "GET /recipe/164/ HTTP/1.1" 200 5073
+INFO 2022-03-24 13:45:01,875 basehttp 10408 6304 "GET /recipe/164/update/ HTTP/1.1" 200 9694
+INFO 2022-03-24 13:45:08,647 basehttp 10408 6304 "POST /recipe/164/update/ HTTP/1.1" 200 9246
+INFO 2022-03-24 13:45:12,580 basehttp 10408 6304 "POST /recipe/164/update/ HTTP/1.1" 200 8028
+INFO 2022-03-24 13:45:14,878 views 10408 6304 url:/recipe/164/update/ method:POST 
+INFO 2022-03-24 13:45:14,907 basehttp 10408 6304 "POST /recipe/164/update/ HTTP/1.1" 302 0
+INFO 2022-03-24 13:45:15,013 basehttp 10408 6304 "GET /recipe/164/ HTTP/1.1" 200 5204
+INFO 2022-03-24 13:45:15,150 basehttp 10408 6304 "GET /mediafiles/recipes_pics/farhad-ibrahimzade-3KHFUgr9Ckw-unsplash_XT106zY.jpg HTTP/1.1" 200 12475
+INFO 2022-03-24 13:54:50,562 autoreload 12460 14528 Watching for file changes with StatReloader
+INFO 2022-03-24 13:54:50,973 basehttp 12460 1300 "GET / HTTP/1.1" 200 11484
+INFO 2022-03-24 13:54:51,049 basehttp 12460 1300 "GET /mediafiles/recipes_pics/farhad-ibrahimzade-3KHFUgr9Ckw-unsplash_XT106zY.jpg HTTP/1.1" 304 0
+INFO 2022-03-24 13:54:52,772 views 12460 1300 url:/profile/ method:GET 
+INFO 2022-03-24 13:54:52,796 basehttp 12460 1300 "GET /profile/ HTTP/1.1" 200 4065
+INFO 2022-03-24 13:54:56,693 basehttp 12460 1300 "POST /profile/ HTTP/1.1" 302 0
+INFO 2022-03-24 13:54:56,759 views 12460 1300 url:/profile/ method:GET 
+INFO 2022-03-24 13:54:56,779 basehttp 12460 1300 "GET /profile/ HTTP/1.1" 200 4185
+INFO 2022-03-24 13:55:35,198 basehttp 12460 1300 "POST /profile/ HTTP/1.1" 302 0
+INFO 2022-03-24 13:55:35,251 views 12460 1300 url:/profile/ method:GET 
+INFO 2022-03-24 13:55:35,269 basehttp 12460 1300 "GET /profile/ HTTP/1.1" 200 4195
+INFO 2022-03-24 13:55:43,423 basehttp 12460 1300 "POST /profile/ HTTP/1.1" 302 0
+INFO 2022-03-24 13:55:43,485 views 12460 1300 url:/profile/ method:GET 
+INFO 2022-03-24 13:55:43,504 basehttp 12460 1300 "GET /profile/ HTTP/1.1" 200 4183
+INFO 2022-03-29 13:17:28,256 autoreload 12348 828 Watching for file changes with StatReloader
+INFO 2022-03-29 13:17:29,740 basehttp 12348 5352 "GET / HTTP/1.1" 200 12000
+INFO 2022-03-29 13:17:30,189 basehttp 12348 5352 "GET /staticfiles/css/main.css HTTP/1.1" 200 5845
+INFO 2022-03-29 13:17:30,196 basehttp 12348 5352 "GET /mediafiles/recipes_pics/tamara-schipchinskaya-UmIQXgNUfsY-unsplash.jpg HTTP/1.1" 200 7692
+INFO 2022-03-29 13:17:30,203 basehttp 12348 5352 "GET /mediafiles/recipes_pics/sandwich.jpg HTTP/1.1" 200 17094
+INFO 2022-03-29 13:17:30,210 basehttp 12348 5352 "GET /mediafiles/recipes_pics/louis-hansel-Pnn-Lb4gKAs-unsplash_F2GxyK5.jpg HTTP/1.1" 200 7080
+INFO 2022-03-29 13:17:30,216 basehttp 12348 5352 "GET /mediafiles/recipes_pics/baked-lattice-topped-apple-pie-768x1152.jpg HTTP/1.1" 200 12917
+INFO 2022-03-29 13:17:30,221 basehttp 12348 5352 "GET /mediafiles/recipes_pics/gluten-free-oat-waffles-recipe-2-1.jpg HTTP/1.1" 200 11246
+INFO 2022-03-29 13:17:30,280 basehttp 12348 13684 "GET /mediafiles/logo.jpg HTTP/1.1" 200 6892
+INFO 2022-03-29 13:17:30,286 basehttp 12348 13580 "GET /mediafiles/recipes_pics/rirri-9Xvy-Y4bivg-unsplash_mwF7LL4_OMPXbXS.jpg HTTP/1.1" 200 9117
+INFO 2022-03-29 13:17:30,320 basehttp 12348 8124 "GET /mediafiles/recipes_pics/raman-H4Pg-oFCYmc-unsplash_jMANnMa.jpg HTTP/1.1" 200 11043
+INFO 2022-03-29 13:17:30,340 basehttp 12348 16024 "GET /mediafiles/recipes_pics/farhad-ibrahimzade-3KHFUgr9Ckw-unsplash_ohOvk7x.jpg HTTP/1.1" 200 12475
+INFO 2022-03-29 13:17:30,345 basehttp 12348 11780 "GET /mediafiles/recipes_pics/pure-julia-dCnrR58HNlg-unsplash_mAS2P5m.jpg HTTP/1.1" 200 8098
+INFO 2022-03-29 13:17:30,350 basehttp 12348 5352 "GET /staticfiles/css/5.jpg HTTP/1.1" 200 3945438
+WARNING 2022-03-29 13:17:31,134 log 12348 5352 Not Found: /favicon.ico
+WARNING 2022-03-29 13:17:31,135 basehttp 12348 5352 "GET /favicon.ico HTTP/1.1" 404 5477
+INFO 2022-03-29 13:17:41,154 basehttp 12348 5352 "GET /?c=Picnic HTTP/1.1" 200 3108
+INFO 2022-03-29 13:17:41,190 basehttp 12348 5352 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 13:17:47,881 basehttp 12348 5352 "GET /?c=Party HTTP/1.1" 200 7597
+INFO 2022-03-29 13:17:47,953 basehttp 12348 11780 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 13:17:47,956 basehttp 12348 5352 "GET /mediafiles/recipes_pics/4560-mini-pizzerkiciasto-francuskie-konc.jpg HTTP/1.1" 200 14678
+INFO 2022-03-29 13:17:48,007 basehttp 12348 5352 "GET /mediafiles/recipes_pics/pancake-gbeb89618e_1920_O9c2Pzx.jpg HTTP/1.1" 200 11694
+INFO 2022-03-29 13:17:48,007 basehttp 12348 11780 "GET /mediafiles/recipes_pics/mexican-mix-g8b95c0e61_1920_qTVfvlK.jpg HTTP/1.1" 200 9582
+INFO 2022-03-29 13:17:54,342 basehttp 12348 11780 "GET /?c=Dessert HTTP/1.1" 200 6780
+INFO 2022-03-29 13:17:54,424 basehttp 12348 11780 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 13:17:54,472 basehttp 12348 11780 "GET /mediafiles/recipes_pics/marie-dehayes-ONNsapeNjJ0-unsplash.jpg HTTP/1.1" 200 13393
+INFO 2022-03-29 13:18:00,142 basehttp 12348 11780 "GET /?c=Drink HTTP/1.1" 200 4954
+INFO 2022-03-29 13:18:00,246 basehttp 12348 11780 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 13:18:00,287 basehttp 12348 11780 "GET /mediafiles/recipes_pics/rirri-9Xvy-Y4bivg-unsplash_mwF7LL4.jpg HTTP/1.1" 200 9117
+INFO 2022-03-29 13:18:06,301 basehttp 12348 11780 "GET /?c=Other HTTP/1.1" 200 6749
+INFO 2022-03-29 13:18:06,380 basehttp 12348 11780 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 13:18:06,418 basehttp 12348 16024 "GET /mediafiles/recipes_pics/R.jpg HTTP/1.1" 200 12948
+INFO 2022-03-29 13:18:06,418 basehttp 12348 11780 "GET /mediafiles/recipes_pics/dumpling-g815dd98d0_1920_iyGGesn.jpg HTTP/1.1" 200 14946
+INFO 2022-03-29 13:18:06,419 basehttp 12348 5352 "GET /mediafiles/default.jpg HTTP/1.1" 200 21334
+INFO 2022-03-29 13:18:14,490 basehttp 12348 16024 "GET / HTTP/1.1" 200 12000
+INFO 2022-03-29 13:18:14,534 basehttp 12348 16024 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 13:18:18,945 basehttp 12348 16024 "GET /?page=2 HTTP/1.1" 200 11977
+INFO 2022-03-29 13:18:19,046 basehttp 12348 5352 "GET /mediafiles/recipes_pics/tarte-flambee-g3d9d2d8f8_1920_sXPdDR7.jpg HTTP/1.1" 200 18480
+INFO 2022-03-29 13:18:19,047 basehttp 12348 16024 "GET /mediafiles/recipes_pics/Easy-sausage-and-potato-casserole.jpg HTTP/1.1" 200 19890
+INFO 2022-03-29 13:18:19,048 basehttp 12348 11780 "GET /mediafiles/recipes_pics/egg-fried-rice-70b2cce.webp HTTP/1.1" 200 21168
+INFO 2022-03-29 13:18:23,397 views 12348 16024 url:/user/gaben/ method:GET 
+INFO 2022-03-29 13:18:23,754 basehttp 12348 16024 "GET /user/gaben/ HTTP/1.1" 200 10839
+INFO 2022-03-29 13:18:23,813 basehttp 12348 16024 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 13:18:33,639 views 12348 16024 url:/user/gaben/ method:GET 
+INFO 2022-03-29 13:18:33,806 basehttp 12348 16024 "GET /user/gaben/?page=2 HTTP/1.1" 200 5196
+INFO 2022-03-29 13:18:33,891 basehttp 12348 16024 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 13:18:37,982 basehttp 12348 16024 "GET / HTTP/1.1" 200 12000
+INFO 2022-03-29 13:18:38,921 views 12348 16024 url:/about/ method:GET 
+INFO 2022-03-29 13:18:38,927 basehttp 12348 16024 "GET /about/ HTTP/1.1" 200 3016
+INFO 2022-03-29 13:18:40,910 basehttp 12348 16024 "GET / HTTP/1.1" 200 12000
+INFO 2022-03-29 13:18:49,339 basehttp 12348 16024 "GET /?s=apple HTTP/1.1" 200 4042
+INFO 2022-03-29 13:18:49,386 basehttp 12348 16024 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 13:18:57,077 basehttp 12348 16024 "GET / HTTP/1.1" 200 12000
+INFO 2022-03-29 13:20:49,969 autoreload 1080 13168 Watching for file changes with StatReloader
+INFO 2022-03-29 13:20:51,209 basehttp 1080 920 "GET / HTTP/1.1" 200 12000
+INFO 2022-03-29 13:20:51,254 basehttp 1080 920 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 13:20:57,973 basehttp 1080 920 "GET /recipe/125/ HTTP/1.1" 200 7643
+INFO 2022-03-29 13:21:14,883 basehttp 1080 920 "GET /login/ HTTP/1.1" 200 3546
+INFO 2022-03-29 13:21:14,915 basehttp 1080 920 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 13:22:17,788 autoreload 1080 13168 D:\csm2020-project\src\agilewebapp-update5\agileProject\settings.py changed, reloading.
+INFO 2022-03-29 13:22:18,614 autoreload 1364 3996 Watching for file changes with StatReloader
+INFO 2022-03-29 13:24:51,374 autoreload 1364 3996 D:\csm2020-project\src\agilewebapp-update5\agileProject\settings.py changed, reloading.
+INFO 2022-03-29 13:24:52,215 autoreload 12460 9384 Watching for file changes with StatReloader
+INFO 2022-03-29 13:26:16,317 autoreload 12460 9384 D:\csm2020-project\src\agilewebapp-update5\agileProject\urls.py changed, reloading.
+INFO 2022-03-29 13:26:17,099 autoreload 6616 15604 Watching for file changes with StatReloader
+INFO 2022-03-29 14:36:23,550 autoreload 2160 12108 Watching for file changes with StatReloader
+INFO 2022-03-29 14:36:25,104 basehttp 2160 2960 "GET / HTTP/1.1" 200 11915
+INFO 2022-03-29 14:36:25,173 basehttp 2160 2960 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 14:36:28,149 basehttp 2160 2960 "GET /login/ HTTP/1.1" 200 3546
+INFO 2022-03-29 14:36:33,645 basehttp 2160 2960 "POST /login/ HTTP/1.1" 200 3735
+INFO 2022-03-29 14:36:42,223 basehttp 2160 2960 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-03-29 14:36:42,862 basehttp 2160 2960 "GET / HTTP/1.1" 200 12056
+INFO 2022-03-29 14:36:47,914 views 2160 2960 url:/profile/ method:GET 
+INFO 2022-03-29 14:36:47,969 basehttp 2160 2960 "GET /profile/ HTTP/1.1" 200 4065
+INFO 2022-03-29 14:48:02,766 autoreload 2160 12108 D:\csm2020-project\src\agilewebapp-update5\users\forms.py changed, reloading.
+INFO 2022-03-29 14:48:03,758 autoreload 7392 15536 Watching for file changes with StatReloader
+INFO 2022-03-29 14:52:10,588 autoreload 7392 15536 D:\csm2020-project\src\agilewebapp-update5\users\forms.py changed, reloading.
+INFO 2022-03-29 14:52:11,705 autoreload 14380 12508 Watching for file changes with StatReloader
+INFO 2022-03-29 14:54:30,021 autoreload 14380 12508 C:\Users\Gaben\AppData\Local\Programs\Python\Python310\Lib\site-packages\django\contrib\auth\models.py changed, reloading.
+INFO 2022-03-29 14:54:30,854 autoreload 9220 9700 Watching for file changes with StatReloader
+INFO 2022-03-29 14:54:38,581 autoreload 2120 3024 Watching for file changes with StatReloader
+INFO 2022-03-29 14:54:39,827 basehttp 2120 6320 "GET / HTTP/1.1" 200 12141
+INFO 2022-03-29 14:54:39,911 basehttp 2120 6320 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 14:54:42,808 views 2120 6320 url:/profile/ method:GET 
+INFO 2022-03-29 14:54:42,858 basehttp 2120 6320 "GET /profile/ HTTP/1.1" 200 4065
+INFO 2022-03-29 14:54:50,538 autoreload 2120 3024 D:\csm2020-project\src\agilewebapp-update5\users\forms.py changed, reloading.
+INFO 2022-03-29 14:54:51,273 autoreload 14936 11836 Watching for file changes with StatReloader
+INFO 2022-03-29 14:54:52,048 views 14936 10956 url:/profile/ method:GET 
+INFO 2022-03-29 14:54:52,123 basehttp 14936 10956 "GET /profile/ HTTP/1.1" 200 4066
+INFO 2022-03-29 14:54:52,289 basehttp 14936 10956 "GET /staticfiles/css/main.css HTTP/1.1" 200 5845
+INFO 2022-03-29 14:54:52,299 basehttp 14936 9168 "GET /mediafiles/logo.jpg HTTP/1.1" 200 6892
+INFO 2022-03-29 14:54:52,400 basehttp 14936 9168 "GET /staticfiles/css/5.jpg HTTP/1.1" 200 3945438
+WARNING 2022-03-29 14:54:52,614 log 14936 9168 Not Found: /favicon.ico
+WARNING 2022-03-29 14:54:52,615 basehttp 14936 9168 "GET /favicon.ico HTTP/1.1" 404 5477
+INFO 2022-03-29 14:54:59,970 autoreload 14936 11836 D:\csm2020-project\src\agilewebapp-update5\users\forms.py changed, reloading.
+INFO 2022-03-29 14:55:00,691 autoreload 11360 4520 Watching for file changes with StatReloader
+INFO 2022-03-29 14:55:01,551 views 11360 4860 url:/profile/ method:GET 
+INFO 2022-03-29 14:55:01,621 basehttp 11360 4860 "GET /profile/ HTTP/1.1" 200 4065
+INFO 2022-03-29 14:55:01,739 basehttp 11360 4860 "GET /staticfiles/css/main.css HTTP/1.1" 200 5845
+INFO 2022-03-29 14:55:01,755 basehttp 11360 12240 "GET /mediafiles/logo.jpg HTTP/1.1" 200 6892
+INFO 2022-03-29 14:55:01,804 basehttp 11360 4860 "GET /staticfiles/css/5.jpg HTTP/1.1" 200 3945438
+WARNING 2022-03-29 14:55:02,041 log 11360 4860 Not Found: /favicon.ico
+WARNING 2022-03-29 14:55:02,042 basehttp 11360 4860 "GET /favicon.ico HTTP/1.1" 404 5477
+INFO 2022-03-29 15:06:14,851 autoreload 9488 7916 Watching for file changes with StatReloader
+INFO 2022-03-29 15:06:16,447 basehttp 9488 3000 "GET / HTTP/1.1" 200 12141
+INFO 2022-03-29 15:06:16,498 basehttp 9488 3000 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 15:06:18,723 views 9488 3000 url:/profile/ method:GET 
+INFO 2022-03-29 15:06:18,756 basehttp 9488 3000 "GET /profile/ HTTP/1.1" 200 4065
+INFO 2022-03-29 15:06:20,942 basehttp 9488 3000 "GET /logout/ HTTP/1.1" 200 2200
+INFO 2022-03-29 15:06:21,907 views 9488 3000 url:/register/ method:GET 
+INFO 2022-03-29 15:06:22,024 basehttp 9488 3000 "GET /register/ HTTP/1.1" 200 4596
+INFO 2022-03-29 15:06:28,258 autoreload 9488 7916 D:\csm2020-project\src\agilewebapp-update5\users\forms.py changed, reloading.
+INFO 2022-03-29 15:06:28,989 autoreload 8972 13428 Watching for file changes with StatReloader
+INFO 2022-03-29 15:06:29,632 views 8972 12012 url:/register/ method:GET 
+INFO 2022-03-29 15:06:29,702 basehttp 8972 12012 "GET /register/ HTTP/1.1" 200 4595
+INFO 2022-03-29 15:06:29,852 basehttp 8972 12012 "GET /staticfiles/css/main.css HTTP/1.1" 200 5845
+INFO 2022-03-29 15:06:29,862 basehttp 8972 10892 "GET /mediafiles/logo.jpg HTTP/1.1" 200 6892
+INFO 2022-03-29 15:06:29,964 basehttp 8972 10892 "GET /staticfiles/css/5.jpg HTTP/1.1" 200 3945438
+WARNING 2022-03-29 15:06:30,226 log 8972 10892 Not Found: /favicon.ico
+WARNING 2022-03-29 15:06:30,227 basehttp 8972 10892 "GET /favicon.ico HTTP/1.1" 404 5477
+INFO 2022-03-29 17:32:27,544 autoreload 7812 12260 Watching for file changes with StatReloader
+INFO 2022-03-29 17:32:33,731 basehttp 7812 9356 "GET / HTTP/1.1" 200 10958
+INFO 2022-03-29 17:32:33,928 basehttp 7812 9356 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+WARNING 2022-03-29 17:32:36,273 log 7812 9356 Not Found: /favicon.ico
+WARNING 2022-03-29 17:32:36,298 basehttp 7812 9356 "GET /favicon.ico HTTP/1.1" 404 5477
+INFO 2022-03-29 17:34:13,339 autoreload 2384 9808 Watching for file changes with StatReloader
+INFO 2022-03-29 17:34:24,482 autoreload 2384 9808 B:\CSM2020\csm2020-project\src\agilewebapp-update5\users\urls.py changed, reloading.
+INFO 2022-03-29 17:34:25,717 autoreload 12960 9364 Watching for file changes with StatReloader
+INFO 2022-03-29 17:34:27,789 basehttp 12960 12492 "GET / HTTP/1.1" 200 10958
+INFO 2022-03-29 17:34:32,842 basehttp 12960 12052 "GET /login/ HTTP/1.1" 200 3547
+INFO 2022-03-29 17:34:40,648 basehttp 12960 12672 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-03-29 17:34:40,914 basehttp 12960 12672 "GET / HTTP/1.1" 200 11099
+INFO 2022-03-29 17:34:42,575 views 12960 12672 url:/profile/ method:GET 
+INFO 2022-03-29 17:34:42,687 basehttp 12960 12672 "GET /profile/ HTTP/1.1" 200 4052
+INFO 2022-03-29 17:34:44,865 views 12960 12672 url:/delete-account/ method:GET 
+INFO 2022-03-29 17:34:44,921 basehttp 12960 12672 "GET /delete-account/ HTTP/1.1" 200 2947
+INFO 2022-03-29 17:34:47,210 views 12960 1280 url:/profile/ method:GET 
+INFO 2022-03-29 17:34:47,240 basehttp 12960 1280 "GET /profile/ HTTP/1.1" 200 4052
+INFO 2022-03-29 17:35:03,863 autoreload 12960 9364 B:\CSM2020\csm2020-project\src\agilewebapp-update5\users\urls.py changed, reloading.
+INFO 2022-03-29 17:35:05,675 autoreload 6892 6184 Watching for file changes with StatReloader
+INFO 2022-03-29 17:35:07,458 autoreload 6892 6184 B:\CSM2020\csm2020-project\src\agilewebapp-update5\users\urls.py changed, reloading.
+INFO 2022-03-29 17:35:08,539 autoreload 4448 7960 Watching for file changes with StatReloader
+INFO 2022-03-29 17:35:11,363 autoreload 4448 7960 B:\CSM2020\csm2020-project\src\agilewebapp-update5\users\urls.py changed, reloading.
+INFO 2022-03-29 17:35:12,620 autoreload 12308 12928 Watching for file changes with StatReloader
+INFO 2022-03-29 17:35:13,173 basehttp 12308 12916 "GET / HTTP/1.1" 200 11099
+INFO 2022-03-29 17:35:30,997 autoreload 12308 12928 B:\CSM2020\csm2020-project\src\agilewebapp-update5\users\urls.py changed, reloading.
+INFO 2022-03-29 17:35:33,602 autoreload 12460 6716 Watching for file changes with StatReloader
+INFO 2022-03-29 17:36:03,322 autoreload 12460 6716 B:\CSM2020\csm2020-project\src\agilewebapp-update5\users\urls.py changed, reloading.
+INFO 2022-03-29 17:36:04,658 autoreload 9284 12056 Watching for file changes with StatReloader
+INFO 2022-03-29 17:36:12,244 autoreload 9284 12056 B:\CSM2020\csm2020-project\src\agilewebapp-update5\users\urls.py changed, reloading.
+INFO 2022-03-29 17:36:13,405 autoreload 10564 12752 Watching for file changes with StatReloader
+INFO 2022-03-29 17:36:23,277 autoreload 10564 12752 B:\CSM2020\csm2020-project\src\agilewebapp-update5\agileProject\urls.py changed, reloading.
+INFO 2022-03-29 17:36:24,423 autoreload 12392 12616 Watching for file changes with StatReloader
+INFO 2022-03-29 17:37:46,615 views 2876 2896 url:/profile/ method:GET 
+INFO 2022-03-29 17:37:46,949 views 2876 2896 url:/profile/ method:POST 
+WARNING 2022-03-29 17:37:47,342 log 2876 2896 Not Found: /myrecipes/
+INFO 2022-03-29 17:37:48,191 views 2876 2896 url:/myrecipes/ method:GET 
+INFO 2022-03-29 17:37:48,642 views 2876 2896 url:/register/ method:GET 
+INFO 2022-03-29 17:37:48,715 views 2876 2896 url:/register/ method:POST 
+INFO 2022-03-29 17:37:48,745 views 2876 2896 url:/register/ method:POST 
+INFO 2022-03-29 17:37:48,778 views 2876 2896 url:/register/ method:POST 
+INFO 2022-03-29 17:38:43,748 views 12692 12624 url:/profile/ method:GET 
+INFO 2022-03-29 17:38:43,795 views 12692 12624 url:/profile/ method:POST 
+WARNING 2022-03-29 17:38:44,005 log 12692 12624 Not Found: /myrecipes/
+INFO 2022-03-29 17:38:44,627 views 12692 12624 url:/myrecipes/ method:GET 
+INFO 2022-03-29 17:38:45,021 views 12692 12624 url:/register/ method:GET 
+INFO 2022-03-29 17:38:45,052 views 12692 12624 url:/register/ method:POST 
+INFO 2022-03-29 17:38:45,081 views 12692 12624 url:/register/ method:POST 
+INFO 2022-03-29 17:38:45,112 views 12692 12624 url:/register/ method:POST 
+INFO 2022-03-29 17:39:44,557 views 12668 8064 url:/profile/ method:GET 
+INFO 2022-03-29 17:39:44,840 views 12668 8064 url:/profile/ method:POST 
+WARNING 2022-03-29 17:39:45,141 log 12668 8064 Not Found: /myrecipes/
+INFO 2022-03-29 17:39:45,747 views 12668 8064 url:/myrecipes/ method:GET 
+INFO 2022-03-29 17:39:46,384 views 12668 8064 url:/register/ method:GET 
+INFO 2022-03-29 17:39:46,459 views 12668 8064 url:/register/ method:POST 
+INFO 2022-03-29 17:39:46,520 views 12668 8064 url:/register/ method:POST 
+INFO 2022-03-29 17:39:46,575 views 12668 8064 url:/register/ method:POST 
+INFO 2022-03-29 17:43:30,284 views 6652 5504 url:/profile/ method:GET 
+INFO 2022-03-29 17:43:30,520 views 6652 5504 url:/profile/ method:POST 
+WARNING 2022-03-29 17:43:30,986 log 6652 5504 Not Found: /myrecipes/
+INFO 2022-03-29 17:43:31,573 views 6652 5504 url:/myrecipes/ method:GET 
+INFO 2022-03-29 17:43:32,156 views 6652 5504 url:/register/ method:GET 
+INFO 2022-03-29 17:43:32,393 views 6652 5504 url:/register/ method:POST 
+INFO 2022-03-29 17:43:32,548 views 6652 5504 url:/register/ method:POST 
+INFO 2022-03-29 17:43:32,708 views 6652 5504 url:/register/ method:POST 
+INFO 2022-03-29 17:48:17,973 basehttp 12392 8188 "GET / HTTP/1.1" 200 11099
+INFO 2022-03-29 17:50:43,527 basehttp 12392 9724 "GET / HTTP/1.1" 200 11103
+INFO 2022-03-29 17:51:10,908 basehttp 12392 2348 "GET / HTTP/1.1" 200 11107
+INFO 2022-03-29 17:52:16,211 basehttp 12392 11988 "GET / HTTP/1.1" 200 11103
+INFO 2022-03-29 17:52:16,396 basehttp 12392 11988 "GET /staticfiles/css/main.css HTTP/1.1" 200 5853
+INFO 2022-03-29 17:52:20,143 basehttp 12392 13132 "GET / HTTP/1.1" 200 11103
+INFO 2022-03-29 17:52:20,185 basehttp 12392 13132 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 17:52:30,788 basehttp 12392 2912 "GET / HTTP/1.1" 200 11107
+INFO 2022-03-29 17:52:30,887 basehttp 12392 2912 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 19:23:06,811 autoreload 13148 6508 Watching for file changes with StatReloader
+INFO 2022-03-29 19:23:09,216 basehttp 13148 11812 "GET / HTTP/1.1" 200 12008
+INFO 2022-03-29 19:23:09,484 basehttp 13148 11812 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 19:24:15,777 basehttp 13148 5568 "GET /recipe/121/ HTTP/1.1" 200 5371
+INFO 2022-03-29 19:24:19,621 basehttp 13148 5568 "GET / HTTP/1.1" 200 12008
+INFO 2022-03-29 19:24:39,364 basehttp 13148 9068 "GET / HTTP/1.1" 200 12008
+INFO 2022-03-29 19:24:39,598 basehttp 13148 9068 "GET /staticfiles/css/main.css HTTP/1.1" 200 5853
+WARNING 2022-03-29 19:24:40,399 log 13148 9068 Not Found: /favicon.ico
+WARNING 2022-03-29 19:24:40,400 basehttp 13148 9068 "GET /favicon.ico HTTP/1.1" 404 5477
+INFO 2022-03-29 19:24:42,364 basehttp 13148 9068 "GET /recipe/124/ HTTP/1.1" 200 6051
+INFO 2022-03-29 19:26:26,577 basehttp 13148 8548 - Broken pipe from ('127.0.0.1', 50616)
+
+INFO 2022-03-29 19:26:26,675 basehttp 13148 1944 "GET / HTTP/1.1" 200 12008
+INFO 2022-03-29 19:26:59,501 basehttp 13148 6536 "GET / HTTP/1.1" 200 12161
+INFO 2022-03-29 19:27:05,306 basehttp 13148 13136 "GET /recipe/158/ HTTP/1.1" 200 4682
+INFO 2022-03-29 19:27:08,465 views 13148 13136 url:/user/lily/ method:GET 
+INFO 2022-03-29 19:27:08,573 basehttp 13148 13136 "GET /user/lily/ HTTP/1.1" 200 2960
+INFO 2022-03-29 19:27:48,901 views 13148 9972 url:/user/lily/ method:GET 
+INFO 2022-03-29 19:27:48,970 basehttp 13148 9972 "GET /user/lily/ HTTP/1.1" 200 2977
+INFO 2022-03-29 19:27:53,168 basehttp 13148 9024 "GET / HTTP/1.1" 200 12161
+INFO 2022-03-29 19:31:41,629 views 13148 7604 url:/user/lily/ method:GET 
+INFO 2022-03-29 19:31:41,717 basehttp 13148 7604 "GET /user/lily/ HTTP/1.1" 200 2977
+INFO 2022-03-29 19:32:12,972 basehttp 13148 7604 "GET /recipe/124/ HTTP/1.1" 200 6051
+INFO 2022-03-29 19:33:19,266 basehttp 13148 6360 "GET / HTTP/1.1" 200 12161
+INFO 2022-03-29 19:34:02,930 basehttp 13148 8176 "GET /?s=apple HTTP/1.1" 200 4067
+INFO 2022-03-29 19:34:03,061 basehttp 13148 8176 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 19:39:20,435 basehttp 13148 10300 "GET /?c=Party HTTP/1.1" 200 7690
+INFO 2022-03-29 19:46:10,459 basehttp 13148 7312 "GET /login/ HTTP/1.1" 200 3547
+INFO 2022-03-29 19:46:10,504 basehttp 13148 7312 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 19:46:16,764 basehttp 13148 11764 "POST /login/ HTTP/1.1" 200 3736
+INFO 2022-03-29 19:46:21,769 basehttp 13148 11764 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-03-29 19:46:21,918 basehttp 13148 11764 "GET / HTTP/1.1" 200 12302
+INFO 2022-03-29 19:46:26,402 views 13148 11764 url:/myrecipes/ method:GET 
+INFO 2022-03-29 19:46:26,513 basehttp 13148 11764 "GET /myrecipes/ HTTP/1.1" 200 9411
+INFO 2022-03-29 19:46:26,621 basehttp 13148 10928 "GET /mediafiles/recipes_pics/R.jpg HTTP/1.1" 304 0
+INFO 2022-03-29 19:46:26,622 basehttp 13148 11764 "GET /mediafiles/recipes_pics/marie-dehayes-ONNsapeNjJ0-unsplash.jpg HTTP/1.1" 304 0
+INFO 2022-03-29 19:46:26,622 basehttp 13148 13224 "GET /mediafiles/recipes_pics/dumpling-g815dd98d0_1920_iyGGesn.jpg HTTP/1.1" 304 0
+INFO 2022-03-29 19:46:26,633 basehttp 13148 11764 "GET /mediafiles/recipes_pics/bean-soup-g068fdab1e_1920_nM4G5Vm.jpg HTTP/1.1" 304 0
+INFO 2022-03-29 19:46:26,633 basehttp 13148 13224 "GET /mediafiles/recipes_pics/egg-fried-rice-70b2cce.webp HTTP/1.1" 304 0
+INFO 2022-03-29 19:47:28,195 basehttp 13148 8812 "GET /recipe/116/ HTTP/1.1" 200 7307
+INFO 2022-03-29 19:50:24,024 basehttp 13148 13268 "GET /recipe/new/ HTTP/1.1" 200 9007
+INFO 2022-03-29 19:50:40,653 basehttp 13148 1220 "GET / HTTP/1.1" 200 12302
+INFO 2022-03-29 19:50:44,338 basehttp 13148 11616 "GET /?s=salad HTTP/1.1" 200 5118
+INFO 2022-03-29 19:51:00,125 basehttp 13148 1672 "GET /?s= HTTP/1.1" 200 12302
+INFO 2022-03-29 19:51:03,133 basehttp 13148 2832 "GET /?page=3 HTTP/1.1" 200 6439
+INFO 2022-03-29 19:51:06,850 basehttp 13148 2832 "GET /?page=2 HTTP/1.1" 200 12279
+INFO 2022-03-29 19:51:06,958 basehttp 13148 10272 "GET /mediafiles/default.jpg HTTP/1.1" 304 0
+INFO 2022-03-29 19:51:07,016 basehttp 13148 2832 "GET /mediafiles/recipes_pics/rirri-9Xvy-Y4bivg-unsplash_mwF7LL4.jpg HTTP/1.1" 200 9117
+INFO 2022-03-29 19:51:07,026 basehttp 13148 12520 "GET /mediafiles/recipes_pics/tarte-flambee-g3d9d2d8f8_1920_sXPdDR7.jpg HTTP/1.1" 200 18480
+INFO 2022-03-29 19:51:07,027 basehttp 13148 11420 "GET /mediafiles/recipes_pics/Easy-sausage-and-potato-casserole.jpg HTTP/1.1" 200 19890
+INFO 2022-03-29 20:01:07,118 basehttp 13148 7660 "GET /?page=1 HTTP/1.1" 200 12302
+INFO 2022-03-29 20:01:07,191 basehttp 13148 7660 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 20:01:29,453 basehttp 13148 12416 "GET / HTTP/1.1" 200 12302
+INFO 2022-03-29 20:01:29,530 basehttp 13148 12416 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 20:01:32,176 basehttp 13148 12416 "GET /?s=SALAMI HTTP/1.1" 200 4215
+INFO 2022-03-29 20:02:45,751 basehttp 13148 10520 "GET /recipe/new/ HTTP/1.1" 200 9007
+INFO 2022-03-29 20:06:47,114 basehttp 13148 1116 "POST /recipe/new/ HTTP/1.1" 200 9154
+INFO 2022-03-29 20:07:38,659 basehttp 13148 12188 "POST /recipe/new/ HTTP/1.1" 200 7664
+INFO 2022-03-29 20:09:10,743 views 13148 4400 url:/recipe/new/ method:POST 
+INFO 2022-03-29 20:09:10,758 basehttp 13148 4400 "POST /recipe/new/ HTTP/1.1" 302 0
+INFO 2022-03-29 20:09:10,947 basehttp 13148 4400 "GET /recipe/170/ HTTP/1.1" 200 4862
+INFO 2022-03-29 20:11:29,935 basehttp 13148 5708 "GET /recipe/170/update/ HTTP/1.1" 200 9736
+INFO 2022-03-29 20:11:54,484 basehttp 13148 2228 "GET /recipe/170/update/ HTTP/1.1" 200 9736
+INFO 2022-03-29 20:13:42,785 basehttp 13148 6036 "POST /recipe/170/update/ HTTP/1.1" 200 9314
+INFO 2022-03-29 20:13:44,719 basehttp 13148 6036 "POST /recipe/170/update/ HTTP/1.1" 200 7992
+INFO 2022-03-29 20:13:47,387 views 13148 6036 url:/recipe/170/update/ method:POST 
+INFO 2022-03-29 20:13:47,401 basehttp 13148 6036 "POST /recipe/170/update/ HTTP/1.1" 302 0
+INFO 2022-03-29 20:13:47,533 basehttp 13148 6036 "GET /recipe/170/ HTTP/1.1" 200 4862
+INFO 2022-03-29 20:13:57,511 basehttp 13148 2880 "GET / HTTP/1.1" 200 12255
+INFO 2022-03-29 20:16:57,567 basehttp 13148 1648 "GET /recipe/170/ HTTP/1.1" 200 4862
+INFO 2022-03-29 20:16:57,861 basehttp 13148 1648 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-29 20:17:00,468 basehttp 13148 1648 "GET /recipe/170/update/ HTTP/1.1" 200 9794
+INFO 2022-03-29 20:17:14,193 basehttp 13148 12620 "POST /recipe/170/update/ HTTP/1.1" 200 9314
+INFO 2022-03-29 20:17:16,388 basehttp 13148 3932 "POST /recipe/170/update/ HTTP/1.1" 200 7992
+INFO 2022-03-29 20:17:19,395 views 13148 3932 url:/recipe/170/update/ method:POST 
+INFO 2022-03-29 20:17:19,409 basehttp 13148 3932 "POST /recipe/170/update/ HTTP/1.1" 302 0
+INFO 2022-03-29 20:17:19,509 basehttp 13148 3932 "GET /recipe/170/ HTTP/1.1" 200 4862
+INFO 2022-03-29 20:17:21,891 basehttp 13148 3932 "GET / HTTP/1.1" 200 12197
+INFO 2022-03-29 22:27:31,716 autoreload 8028 2876 Watching for file changes with StatReloader
+INFO 2022-03-29 22:27:34,217 basehttp 8028 10432 "GET / HTTP/1.1" 200 12056
+INFO 2022-03-29 22:27:34,345 basehttp 8028 10432 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+WARNING 2022-03-29 22:27:39,509 log 8028 900 Not Found: /favicon.ico
+WARNING 2022-03-29 22:27:39,517 basehttp 8028 900 "GET /favicon.ico HTTP/1.1" 404 5477
+INFO 2022-03-29 22:28:10,166 basehttp 8028 2912 "GET / HTTP/1.1" 200 12197
+INFO 2022-03-29 22:28:10,268 basehttp 8028 2912 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+WARNING 2022-03-29 22:28:11,621 log 8028 2912 Not Found: /favicon.ico
+WARNING 2022-03-29 22:28:11,621 basehttp 8028 2912 "GET /favicon.ico HTTP/1.1" 404 5477
+INFO 2022-03-29 22:28:19,916 basehttp 8028 356 "GET /recipe/170/ HTTP/1.1" 200 4862
+INFO 2022-03-29 22:28:55,603 views 8028 1992 url:/recipe/170/delete/ method:GET 
+INFO 2022-03-29 22:28:55,699 basehttp 8028 1992 "GET /recipe/170/delete/ HTTP/1.1" 200 2781
+INFO 2022-03-29 22:28:57,436 views 8028 1992 url:/recipe/170/delete/ method:POST 
+INFO 2022-03-29 22:28:57,472 basehttp 8028 1992 "POST /recipe/170/delete/ HTTP/1.1" 302 0
+INFO 2022-03-29 22:28:57,665 basehttp 8028 1992 "GET / HTTP/1.1" 200 12425
+INFO 2022-03-29 22:29:02,086 basehttp 8028 1992 "GET / HTTP/1.1" 200 12302
+INFO 2022-03-29 23:13:56,526 basehttp 8028 8896 "GET /recipe/122/ HTTP/1.1" 200 5184
+INFO 2022-03-29 23:13:56,717 basehttp 8028 8896 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-30 00:18:40,460 views 8028 7748 url:/profile/ method:GET 
+INFO 2022-03-30 00:18:42,290 basehttp 8028 7748 "GET /profile/ HTTP/1.1" 200 4052
+INFO 2022-03-30 00:18:42,625 basehttp 8028 7748 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-30 00:25:34,019 views 8028 11448 url:/delete-account/ method:GET 
+INFO 2022-03-30 00:25:34,131 basehttp 8028 11448 "GET /delete-account/ HTTP/1.1" 200 2947
+INFO 2022-03-30 00:25:36,797 views 8028 3240 url:/profile/ method:GET 
+INFO 2022-03-30 00:25:36,855 basehttp 8028 3240 "GET /profile/ HTTP/1.1" 200 4052
+INFO 2022-03-30 00:32:31,647 basehttp 8028 6124 "GET / HTTP/1.1" 200 12302
+INFO 2022-03-30 00:32:35,409 basehttp 8028 6124 "GET /?page=2 HTTP/1.1" 200 12279
+INFO 2022-03-30 00:32:37,814 basehttp 8028 4152 "GET /recipe/117/ HTTP/1.1" 200 6466
+INFO 2022-03-30 00:35:31,310 views 8028 4000 url:/recipe/117/delete/ method:GET 
+INFO 2022-03-30 00:35:31,374 basehttp 8028 4000 "GET /recipe/117/delete/ HTTP/1.1" 200 2789
+INFO 2022-03-30 00:35:33,272 basehttp 8028 4000 "GET /recipe/117/ HTTP/1.1" 200 6466
+INFO 2022-03-30 01:22:41,510 basehttp 8028 5784 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-30 01:25:24,501 views 8028 9012 url:/profile/ method:GET 
+INFO 2022-03-30 01:25:24,717 basehttp 8028 9012 "GET /profile/ HTTP/1.1" 200 4052
+INFO 2022-03-30 01:25:28,779 basehttp 8028 6776 "GET /logout/ HTTP/1.1" 200 2200
+INFO 2022-03-30 01:25:30,455 views 8028 6776 url:/register/ method:GET 
+INFO 2022-03-30 01:25:30,768 basehttp 8028 6776 "GET /register/ HTTP/1.1" 200 4596
+INFO 2022-03-30 01:29:59,518 basehttp 8028 10624 "GET /login/ HTTP/1.1" 200 3547
+INFO 2022-03-30 01:30:40,029 basehttp 8028 1328 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-03-30 01:30:40,225 basehttp 8028 1328 "GET / HTTP/1.1" 200 12302
+INFO 2022-03-30 01:30:42,135 views 8028 1328 url:/profile/ method:GET 
+INFO 2022-03-30 01:30:42,199 basehttp 8028 1328 "GET /profile/ HTTP/1.1" 200 4052
+INFO 2022-03-30 01:35:24,966 basehttp 8028 11380 "GET /change-password/ HTTP/1.1" 200 3011
+INFO 2022-03-30 01:35:34,336 basehttp 8028 924 "POST /change-password/ HTTP/1.1" 302 0
+INFO 2022-03-30 01:35:34,431 basehttp 8028 924 "GET /email-sent/ HTTP/1.1" 200 2531
+INFO 2022-03-30 01:36:00,884 basehttp 8028 12880 "GET /password-confirm/MQ/b32sf8-216ca1ad43554a7750d5d1f77114357d/ HTTP/1.1" 302 0
+INFO 2022-03-30 01:36:01,066 basehttp 8028 12880 "GET /password-confirm/MQ/set-password/ HTTP/1.1" 200 3655
+INFO 2022-03-30 01:36:01,231 basehttp 8028 12880 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-30 01:36:17,722 basehttp 8028 11396 "POST /password-confirm/MQ/set-password/ HTTP/1.1" 302 0
+INFO 2022-03-30 01:36:17,828 basehttp 8028 11396 "GET /complete-change/ HTTP/1.1" 200 2325
+INFO 2022-03-30 02:40:28,307 basehttp 8028 10120 "GET /staticfiles/css/main.css HTTP/1.1" 304 0
+INFO 2022-03-30 02:40:36,331 basehttp 8028 7776 "GET /logout/ HTTP/1.1" 200 2200
+INFO 2022-03-30 02:40:39,085 basehttp 8028 7776 "GET /login/ HTTP/1.1" 200 3547
+INFO 2022-03-30 02:40:49,960 basehttp 8028 5376 "POST /login/ HTTP/1.1" 200 3736
+INFO 2022-03-30 02:40:56,311 basehttp 8028 9332 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-03-30 02:40:56,478 basehttp 8028 9332 "GET / HTTP/1.1" 200 12302
+INFO 2022-03-30 03:04:04,634 basehttp 8028 3940 "GET /recipe/158/ HTTP/1.1" 200 4823
+INFO 2022-03-30 03:04:09,934 basehttp 8028 3940 "GET / HTTP/1.1" 200 12302
+INFO 2022-03-30 03:04:13,849 basehttp 8028 8668 "GET /recipe/123/ HTTP/1.1" 200 7938
+INFO 2022-03-30 03:04:51,427 basehttp 8028 8668 "GET /recipe/123/update/ HTTP/1.1" 200 11350
+INFO 2022-03-30 03:05:10,961 basehttp 8028 1220 "GET / HTTP/1.1" 200 12302
+INFO 2022-03-30 03:14:07,606 views 8028 8720 url:/profile/ method:GET 
+INFO 2022-03-30 03:14:07,735 basehttp 8028 8720 "GET /profile/ HTTP/1.1" 200 4052
+INFO 2022-03-30 03:15:05,101 basehttp 8028 5516 "GET /logout/ HTTP/1.1" 200 2200
+INFO 2022-03-30 03:15:07,414 views 8028 5516 url:/register/ method:GET 
+INFO 2022-03-30 03:15:07,595 basehttp 8028 5516 "GET /register/ HTTP/1.1" 200 4596
+INFO 2023-05-26 19:03:31,930 autoreload 24260 7160 Watching for file changes with StatReloader
+INFO 2023-05-26 19:07:56,622 autoreload 22044 17136 Watching for file changes with StatReloader
+ERROR 2023-05-26 19:07:59,829 log 22044 21332 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "recipesApp_recipe" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "recipesApp_recipe"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 157, in get
+    context = self.get_context_data()
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 119, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(queryset, page_size)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 69, in paginate_queryset
+    page = paginator.page(page_number)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 416, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 516, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 501, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "recipesApp_recipe" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "recipesApp_recipe"
+                                          ^
+
+ERROR 2023-05-26 19:07:59,833 basehttp 22044 21332 "GET / HTTP/1.1" 500 162003
+WARNING 2023-05-26 19:08:00,199 log 22044 21332 Not Found: /favicon.ico
+WARNING 2023-05-26 19:08:00,200 basehttp 22044 21332 "GET /favicon.ico HTTP/1.1" 404 5477
+ERROR 2023-05-26 19:08:28,898 log 22044 13044 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "recipesApp_recipe" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "recipesApp_recipe"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 157, in get
+    context = self.get_context_data()
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 119, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(queryset, page_size)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 69, in paginate_queryset
+    page = paginator.page(page_number)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 416, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 516, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 501, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "recipesApp_recipe" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "recipesApp_recipe"
+                                          ^
+
+ERROR 2023-05-26 19:08:28,899 basehttp 22044 13044 "GET / HTTP/1.1" 500 162003
+WARNING 2023-05-26 19:08:29,211 log 22044 13044 Not Found: /favicon.ico
+WARNING 2023-05-26 19:08:29,212 basehttp 22044 13044 "GET /favicon.ico HTTP/1.1" 404 5477
+INFO 2023-05-26 19:08:41,935 basehttp 22044 13044 "GET /login HTTP/1.1" 301 0
+INFO 2023-05-26 19:08:41,976 basehttp 22044 13044 "GET /login/ HTTP/1.1" 200 3546
+INFO 2023-05-26 19:08:42,088 basehttp 22044 13044 "GET /staticfiles/css/main.css HTTP/1.1" 200 5853
+INFO 2023-05-26 19:08:42,118 basehttp 22044 19700 "GET /mediafiles/logo.jpg HTTP/1.1" 200 6892
+INFO 2023-05-26 19:08:42,185 basehttp 22044 19700 "GET /staticfiles/css/5.jpg HTTP/1.1" 200 3945438
+ERROR 2023-05-26 19:08:44,782 log 22044 19700 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "recipesApp_recipe" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "recipesApp_recipe"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 157, in get
+    context = self.get_context_data()
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 119, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(queryset, page_size)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 69, in paginate_queryset
+    page = paginator.page(page_number)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 416, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 516, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 501, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "recipesApp_recipe" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "recipesApp_recipe"
+                                          ^
+
+ERROR 2023-05-26 19:08:44,783 basehttp 22044 19700 "GET / HTTP/1.1" 500 162891
+INFO 2023-05-26 19:08:46,796 basehttp 22044 19700 "GET /login/ HTTP/1.1" 200 3546
+INFO 2023-05-26 19:08:56,773 views 22044 19700 url:/about/ method:GET 
+INFO 2023-05-26 19:08:56,776 basehttp 22044 19700 "GET /about/ HTTP/1.1" 200 3016
+ERROR 2023-05-26 19:09:04,007 log 22044 19700 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedTable: relation "recipesApp_recipe" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "recipesApp_recipe"
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 157, in get
+    context = self.get_context_data()
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 119, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(queryset, page_size)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\generic\list.py", line 69, in paginate_queryset
+    page = paginator.page(page_number)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 76, in page
+    number = self.validate_number(number)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 54, in validate_number
+    if number > self.num_pages:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 103, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\paginator.py", line 97, in count
+    return c()
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 416, in count
+    return self.query.get_count(using=self.db)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 516, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 501, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Gaben\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: relation "recipesApp_recipe" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "recipesApp_recipe"
+                                          ^
+
+ERROR 2023-05-26 19:09:04,009 basehttp 22044 19700 "GET / HTTP/1.1" 500 162891
+INFO 2023-05-26 19:09:43,735 autoreload 22044 17136 D:\Studia Computer Science\Semestr 4\CSM2020_Group Wilson\agilewebapp\agileProject\settings.py changed, reloading.
+INFO 2023-05-26 19:09:44,398 autoreload 20060 5160 Watching for file changes with StatReloader

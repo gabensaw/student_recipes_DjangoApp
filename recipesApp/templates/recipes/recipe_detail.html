@@ -1,0 +1,71 @@
+{% extends 'recipes/base.html' %}
+{% block content %}
+    <div class="alert alert-danger text-center" role="alert">
+        This recipe can contain allergens, please check it before cooking!
+    </div>
+    <article class="media content-section">
+        <div class="media-body">
+            <div class="article-metadata">
+                <a class="mr-2" href="{% url 'user-recipes' object.author.username %}">{{ object.author }}</a>
+                <small class="text-muted">{{ object.dateAdded|date:"F d, Y" }}</small>
+                {% if object.author == user %}
+                    <div>
+                        <a class="btn btn-secondary btn-sm mt-1 mb-1"
+                           href="{% url 'recipe-update' object.id %}">Update</a>
+                        <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'recipe-delete' object.id %}">Delete</a>
+                    </div>
+                {% endif %}
+            </div>
+            <h2 class="article-title text-center">{{ object.recipeName }}</h2>
+            <img class="img-fluid mx-auto center-block" alt="Responsive image" src="{{ recipe.image.url }}">
+        <p class="article-content_2">Recipe category: {{ object.recipeCategory }}</p>
+            <p class="article-content_2">Total cost £{{ object.cost }}</p>
+            <p class="article-content_2">Cooking time: {{ object.cookingTime }} minutes</p>
+            <p class="article-content_2">How many portions: {{ object.portion }}</p>
+            <p class="article-content_2">Skills level: {{ object.skillsLevel }}</p>
+        {% if object.ingredient_set %}
+                <h5 class="title">Ingredients:</h5>
+                <ul>
+                    <div class="article-content_3">
+                    {% for ingredient_el in object.ingredient_set.all %}
+                        {% if ingredient_el.ingredient|length > 0 %}
+                            <li>{{ ingredient_el.ingredient }}</li>
+                        {% endif %}
+                    {% endfor %}
+                    </div>
+                </ul>
+            {% endif %}
+            <h5 class="title">Instruction:</h5>
+            <p class="article-content_2">{{ object.instruction }}</p>
+                    {% if object.nutrient.calories or object.nutrient.fat or object.nutrient.carbohydrate or object.nutrient.fibre or object.nutrient.protein or object.nutrient.salt %}
+                <h1>{{ object.nutrient.all }}</h1>
+                <h5 class="title">Nutrients:</h5>
+                <ul>
+                <div class="article-content_3">
+                    {% if object.nutrient.calories %}
+                        <li class="list-inline-item">{{ object.nutrient.calories }} kcal calories</li><br>
+                    {% endif %}
+                    {% if object.nutrient.fat %}
+                        <li class="list-inline-item">{{ object.nutrient.fat.normalize }} g fat</li><br>
+                    {% endif %}
+                    {% if object.nutrient.carbohydrate %}
+                        <li class="list-inline-item">{{ object.nutrient.carbohydrate.normalize }} g carbohydrate</li><br>
+                    {% endif %}
+                    {% if object.nutrient.fibre %}
+                        <li class="list-inline-item">{{ object.nutrient.fibre.normalize }} g fibre</li><br>
+                    {% endif %}
+                    {% if object.nutrient.protein %}
+                        <li class="list-inline-item">{{ object.nutrient.protein.normalize }} g protein</li><br>
+                    {% endif %}
+                    {% if object.nutrient.salt %}
+                        <li class="list-inline-item">{{ object.nutrient.salt.normalize }} g salt</li><br>
+                    {% endif %}
+                </div>
+                </ul>
+            {% endif %}
+
+        </div>
+    </article>
+{% endblock content %}
+
+
